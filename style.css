@@ -1,0 +1,732 @@
+/*
+* Class Name: audicont
+* Description: Tema audicont
+* Author: @elarsoft
+* License URI: -_-
++ v1: 0;
+*/
+/*---------------------------sub menu-----------------*/
+.sub-menu{
+	padding: 0.3em 0.5em;
+	height: 35px;
+	background: #ededed;
+	color: white;
+}
+.sub-menu a{
+	color: #333333;
+	margin: 0 0.2em;
+	font-size: 0.9em;
+}
+.sub-menu a:hover{
+	text-decoration: none;
+}
+.izquierda{
+	text-align: left;
+}
+.derecha{
+	text-align: right;
+}
+/*------------------------------MENU LOGO-------------*/
+
+
+.sub-menu img{
+	padding: 0.1em;
+}
+.barra-menu ul{
+
+}
+.barra-menu{
+	background: #ededed;
+	text-align: right;
+}
+.barra-menu li {
+	text-align: left;
+}
+.logo{
+	padding: 0.2em;
+	float: left;
+	margin-left: 3em;
+	border-radius: 50%;
+	position: relative;
+	top: -0.4em;
+}
+.campo-logo{
+	text-align: left;	
+	float: left;
+	margin-bottom: 1em;
+}
+.campo-logo h4{
+	margin-top: 0.3em;
+	font-size: 2.2em;
+	font-weight: 100;
+	color: #191919;
+	float: left;
+	margin-right: 0.5em;
+	font-family: "Times New Roman", Times, serif;
+}
+.campo-logo h5{
+	font-size: 0.7em;
+	font-weight: bold;
+	color: #191919;
+	float: left;
+	line-height: 1.1;
+	margin-top: 1.6em;
+	font-family: "Times New Roman", Times, serif;
+}
+.campo-logo h6{
+	font-size: 0.8em;
+	font-weight: bold;
+	color: black;
+	float: left;
+	line-height: 1;
+	position: relative;
+	left: -6em;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.campo-logo a:hover{
+	text-decoration: none;
+}
+.navbar{
+	margin-top: 0.5em;
+}
+.navegacion {
+	list-style: none;
+	margin: 0;
+	background: #ededed;
+	padding: 0;
+}
+.navegacion ul{
+	margin: 0;
+	padding: 0;
+}
+.navegacion li{
+	float: left;
+	width: auto;
+	line-height: 20px;
+	padding-left: 0.4em;
+	padding-right: 0.4em;
+}
+
+.navegacion li a{
+	font-size: 0.8em;
+	text-decoration: none;
+	color: #333333;
+	font-weight: bold;
+	font-family: "Arial Narrow", Arial, sans-serif;
+	word-spacing: -2 !important;
+	
+}
+small, .small {
+    font-size: 80%;
+    font-weight: normal;
+    position: relative;
+    top: -1em;
+}
+/*------------------------,emu desplegable------*/
+.barra-menu ul ul {
+	list-style: none;
+ display:none ;
+ position:absolute;
+ background: #0063ff;
+ padding:0;
+ float: right;
+ z-index:999;
+ height: auto; 
+ max-width: 100%;
+}
+/* items del menu desplegable */
+.barra-menu ul ul li {
+ float:none;
+ width:auto;
+}
+.barra-menu ul ul li:hover {
+	color: white;
+	background: #0355d6;
+	width: auto;
+}
+/* enlaces de los items del menu desplegable */
+.barra-menu ul ul a {
+ line-height:120%;
+ padding:10px 15px;
+ color: white;
+}
+/* items del menu desplegable al pasar el ratón */
+.barra-menu ul li:hover > ul {
+ 	display:block;
+}
+/*-------------------------------contact form-----------*/
+input[type=button], .field-wrap input[type=submit] {
+    width: auto;
+    position: relative;
+    top: -2.8em;
+}
+.contact-form{
+	position: absolute;
+	top: 11em;
+    right: 5em;
+	text-align: center;
+	color: white !important;
+}
+.formulario{
+	padding: 1em;
+background-color: rgb(0, 68, 129);
+height: 420px ;
+}
+.pre{
+	float: right;
+	margin-right: 22em;
+}
+.nf-field-element textarea {
+    height: 130px !important; 
+}
+/*----------------------------------------valores----------------------*/
+.consultoria{
+	background: white;
+	padding-bottom: 2em;
+}
+.consultoria h3{
+	position: relative;
+	top: -2.7em;
+	text-align: center;
+	margin: 1.5em;
+	color: #495057;
+}
+.img-valores img{
+	float: left;
+}
+.img-valores h3{
+	text-align: left;
+	margin-left: 2em;
+}
+.valores p{
+	padding: 0 4em;
+	text-align: justify;
+	font-weight: bold;
+	color: #757577;
+}
+.valores a{
+	background: #4a6998;
+	color: white;
+	padding: 0.5em;
+	float: left;
+	margin-left: 4em;
+}
+.valores a:hover{
+	text-decoration: none;
+	background: #3e5982;
+	color: white;
+}
+.valores ul li {
+	margin: 0 4em;
+	color: #757577;
+}
+/*-------------------------------------------------Beneficios----*/
+.beneficios{
+	margin-top: 3em;
+	background: white;
+	text-align: left;
+}
+.beneficios h3{
+	position: relative;
+	padding: 1em;
+	top: -2em;
+	text-align: center;
+	color: #495057;
+	background: #ededed;
+}
+.beneficios h6{
+	font-weight: bold;
+	color: #495057;
+	font-size: 1.3em;
+}
+.beneficios p{
+	text-align: justify;
+	font-size: 1.2em;
+}
+.beneficios a{
+	background: #f35050;
+	color: white;
+	padding: 0.5em;
+	margin: 1em;
+	float: right;
+	margin-right: 10em;
+}
+.beneficios a:hover{
+	color: white;
+	text-decoration: none;
+	background: #e83f3f;
+}
+.benefecios img{
+	position: relative;
+	top: -10em
+}
+/*----------------------------------firma -*/
+.firma{
+	text-align: center;
+	background: white;
+    position: relative;
+    top: -4.5em;
+    margin: 3em 0;
+    padding: 3em 0;
+}
+.firma img {
+	margin: 0 1em;
+
+}
+.espacio{
+	margin-bottom: 1em;
+}
+.firma p{
+	font-size: 1em;
+	float: left;
+	text-align: justify;
+	color: #555555;
+	margin-left: 2em;
+}
+.firma h6{
+	font-size: 1.2em;
+    color: #e95454;
+    font-weight: 400;
+    text-align: center;
+}
+/*-----------------------------------------------descripcion-------------------*/
+.slide {
+	height: 400px;
+
+}
+.descripcion {
+	text-align: center !important;;
+	height: 400px;
+	margin-top: 3em;
+}
+.descripcion-content{
+	text-align: center;
+	padding: 3em 6em;
+}
+.descripcion-content h3{
+	font-size: 2.2em;
+}
+.descripcion-content p{
+	font-size: 1.2em;
+}
+/*---------------------------------------servicios----*/
+.servicios{
+	position: relative;
+	top: -5em;
+}
+.servicios h3 {
+    position: relative;
+    padding: 1em;
+    text-align: center;
+    color: #495057;
+    background: #ededed;
+	margin: 0;
+}
+
+.servicios ul{
+	list-style: none;	
+	margin: 0;
+	padding: 0;
+	top: 0;
+}
+.servicios ul li h2{
+	color: #444444;
+    line-height: 1em;
+
+}
+.servicios ul li p{
+	position: relative;
+	top: -1em;
+	padding: 0  0.2em;
+}
+.servicios ul li img{
+	width: 100%;
+}
+.servicios ul li{
+	background: white;
+	width: 32%;
+	float: left;
+	text-align: center;
+	margin: 0.5em 0.3em;
+	-webkit-box-shadow: 0 1px 2px 0 #a1acbd;
+    box-shadow: 0 1px 2px 0 #a1acbd;
+
+}
+.servicios ul li a{
+	color: #444444;
+}
+.servicios ul li:hover{
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	transition: 0.2s;
+}
+
+/*---------------------------------------------DESCRIPCION---------------*/
+.descripcion{
+	background: #0063ff;
+	text-align: center;
+	color: white;
+}
+/*--------------------------------------------blog-----------------*/
+
+.logo{
+	margin: 0.2em 0;
+	float: left;
+	margin-left: 4em;
+}
+.blog h4{
+	font-size: 1.5em;
+	margin: 0;
+}
+.blog h1{
+	margin-top: 2em;
+	color: #383938;
+	text-align: center;
+}
+.blog{
+	background: #dde1e7;
+	text-align: justify;
+	padding: 3em 0;
+}
+.blog ul{
+	list-style: none;	
+	margin: 0;
+	padding: 0;
+	top: 0;
+}
+.blog ul li h2{
+	color: #444444;
+	font-weight: 100;
+    font-size: 1.3em;
+    line-height: 1em;
+    padding: 0.2em;
+    position: relative;
+    top: -1em;
+}
+.blog ul li p{
+	position: relative;
+	top: -1em;
+	padding: 0  0.2em;
+}
+.blog ul li img{
+	width: 100%;
+}
+.blog ul li{
+	background: white;
+	width: 32%;
+	float: right;
+	margin: 0.5em 0.3em;
+
+}
+.blog-autor{
+	position: relative;
+	top: -1.5em;
+	width: 60px;
+	background: white;
+}
+.comments{
+	height: 15px;
+	max-width: 15px;
+	margin-left: 1em;
+}
+.views{
+	height: 20px;
+	max-width: 20px;
+	margin-left: 1em;
+}
+/*-----------------------------------------------------blog------entrada-----------------*/
+.entradas{
+	background: white;
+}
+.blog-entrada h1{
+	position: relative;
+	text-align: left;
+	color: white;
+	font-size: 2.25em;
+	background: #283641;
+	padding: 0.1em;
+}
+.contenido{
+	line-height: 1.6em;
+	text-align: left;
+	position: relative;
+	float: left;
+	background: white;
+	width: 100%;
+}
+.contenido h3{
+	text-align: center;
+}
+/*------------------------FORMULARIO CONTACTO----*/
+.formulario-contacto, h3{
+	font-style:initial;
+}
+.formulario-contacto{
+	background: #dedede;
+	padding: 1em;
+	text-align: center;
+	color: black;
+	font-style: italic;
+}
+.formulario-contacto input{
+	border: 0;
+	height: 32px;
+	border-radius: 0.3em;
+	top: 1em;
+	
+}
+.formulario-contacto textarea{
+	border: 0;
+
+}
+.contacto-contenido{
+	text-align: left;
+}
+.contacto-sidebar{
+	text-align:left;
+}
+/*------------------------lateral----------*/
+
+/*------------------------------sugeridos-*/
+.sugeridos{
+	text-align: center;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+.sugeridos h1{
+	font-size: 1.8em;
+}
+.sugeridos h4{
+	margin-bottom: 1em;
+}
+.sugeridos ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.sugeridos ul li{
+	width: 33%;
+	display: inline-block;
+
+}
+.sugeridos ul li img{
+	border-radius: 1em 1em;
+}
+.sugeridos ul li h4{
+	position: relative;
+	top: -2em;
+	color: white;
+}
+.card ul li{
+	width: 100%;
+	margin: 0 0 0.7em;
+	height: 120px;
+}
+.card ul li h2{
+	font-size:0.8em;
+	top: 1em;
+}
+.card ul li a{
+	line-height: 1;
+}
+.card ul{
+	background:  #dde1e7;
+}
+.card ul li img{
+	width: auto;
+    height: 100%;
+    display: inline-block;
+    max-height: 120px;
+    float: left;
+    margin-right: 0.4em;
+}
+.text_card{
+    vertical-align: top;
+}
+.text_card h2{
+	font-size: 0.9em;
+	font-weight: bold;
+	line-height: 1;
+	color: #444444;
+	vertical-align: top;
+	margin: 0;
+	text-align: left;
+}
+.text_card h2:hover{
+	color: #2b2b2b;
+
+}
+.cardview ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.cardview ul li{
+	width: 100%;
+	margin: 0.5em 0;
+	height: 120px;
+	background:#e4e7ea;
+	-webkit-box-shadow: 0 1px 2px 0 #a1acbd;
+    box-shadow: 0 1px 2px 0 #a1acbd;
+}
+.cardview ul li:hover{
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	transition: 0.2s;
+}
+
+.cardview ul li img{
+	width: auto;
+    height: 100%;
+    display: inline-block;
+    max-height: 120px;
+    float: left;
+    margin-right: 0.4em;
+}
+.cardview ul li h2{
+	font-size:0.8em;
+	margin-top: 0.5em;
+}
+.cardview ul li a{
+	text-decoration: none;
+	color: black;
+}
+
+/*-------------------------------asesoria-------*/
+.asesoria{
+	text-align: left;
+}
+.asesoria h2{
+	position: relative;
+	top: -3em;
+	text-align: center;
+	color: white;
+}
+.asesoria ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.asesoria ul li{
+	width: 48%;
+	float: left;
+
+}
+.asesoria ul li img{
+	padding: 0;
+	margin-right: 0.5em;
+	float: left;
+	margin-top: 0.3em;
+}
+/*--------------------------------------mapa*/
+.mapa{
+	margin:0;
+	padding: 0;
+}
+.mapa h3 {
+    position: relative;
+    padding: 1em;
+    text-align: center;
+    color: #495057;
+    background: #ededed;
+	margin: 0;
+}
+/*--------------------------------------------new latter-------------------------------*/
+
+/*----------------------------------------------formulario-- asesoria---------------*/
+.formulario-2{
+	background: #ecebeb;
+}
+/*--------------------------------------foooter*/
+.footer{
+	background: #333333;
+	color: #929090;
+	text-align: left;
+	padding-top: 1em;
+	border-top: 10px solid #b1b1b1;
+}
+.copyright{
+	background: #212121;
+	color: #616060;
+	text-align: center;	
+}
+.footer-etiquetas a{
+	padding: 0.2em;
+	
+	color: grey;
+	font-size: 0.9em !important;
+}
+.footer-etiquetas a:hover{
+	text-decoration: none;
+	background: white;
+}
+iframe{
+	
+}
+.footer-Redes {
+	line-height: 1.2;
+	text-align: justify;
+}
+/*-----------------------------------------contacto..........*/
+.contacto-page{
+	background: white;
+}
+.formulario-c{
+	padding: 1em;
+	background: white;
+	text-align: center;
+}
+.formulario-c h2{
+	color: #f35050;
+}
+/*--------------------------------------------servecios------------*/
+
+
+/*--------------------------------------------------------pruebass----------------*/
+/* Small devices (landscape phones, 576px and up)*/
+@media (max-width: 575px) {
+
+
+.contact-form {
+	position: relative;
+}
+.firma p{
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+.servicios ul li{
+	width: 100%;
+}
+.valores p{
+	padding: 0.5em;
+}
+.valores ul li{
+	margin: 0;
+}
+.blog ul li {
+    width: 100%;
+}
+.beneficios a {
+    padding: 0.5em;
+    margin: 2em 0;
+    float: right;
+    /* margin-right: 10em; */
+}
+.blog h4 {
+text-align: left;
+}
+}
+@media (min-width: 576px) and (max-width: 768px) { 
+
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {  }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { }
+
